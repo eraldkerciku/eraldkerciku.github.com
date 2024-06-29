@@ -1,0 +1,30 @@
+/* src/components/CountriesList.css */
+
+.countries-list {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+  }
+  
+  .countries-list h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .countries-list ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .countries-list li {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  .countries-list li:last-child {
+    margin-bottom: 0;
+  }
+  

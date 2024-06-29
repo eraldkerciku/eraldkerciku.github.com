@@ -1,0 +1,30 @@
+/* src/components/RegionCountries.css */
+
+.region-countries {
+    margin-top: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f0f0f0;
+  }
+  
+  .region-countries h2 {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .region-countries ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  .region-countries li {
+    font-size: 1.2rem;
+    margin-bottom: 5px;
+  }
+  
+  .region-countries li:last-child {
+    margin-bottom: 0;
+  }
+  

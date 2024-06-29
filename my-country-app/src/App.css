@@ -1,0 +1,65 @@
+/* src/App.css */
+.App {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+.title {
+  margin-bottom: 20px;
+  margin-left: 250px;
+}
+
+.search-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  margin-left: 660px;
+}
+
+.search-bar {
+  width: 80%;
+  max-width: 800px; /* Adjust max-width as needed */
+}
+
+.content-container {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.country-info {
+  flex: 1;
+  min-width: 300px;
+  padding: 20px;
+  background-color: #f0f0f0;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.map-container {
+  flex: 1;
+  height: 400px;
+  width: 400px;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+@media screen and (max-width: 768px) {
+  .content-container {
+    flex-direction: column;
+  }
+
+  .country-info,
+  .map-container {
+    width: 100%;
+    max-width: 100%;
+  }
+}

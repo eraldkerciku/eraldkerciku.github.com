@@ -1,0 +1,39 @@
+/* src/components/CountryDetails.css */
+.country-details-container {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-bottom: 10px;
+}
+
+.country-details {
+  margin-top: 20px;
+  display: flex;
+}
+
+.left-panel {
+  flex: 1;
+  padding-right: 20px;
+}
+
+.flag {
+  width: 100px;
+  height: auto;
+  border-radius: 4px;
+}
+
+.loading, .error, .no-country {
+  margin-top: 20px;
+  text-align: center;
+}
